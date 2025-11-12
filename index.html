@@ -24,41 +24,41 @@
               id="avatar"
               class="avatar"
             />
-            <h1>Lê Cảnh Hùng</h1>
-            <h2>Web Developer</h2>
+            <h1 data-key="name">Lê Cảnh Hùng</h1>
+            <h2 data-key="title">Web Developer</h2>
           </div>
           <div class="personal-info">
             <div class="info-item">
               <i class="fas fa-school" style="color: #29a5f8"></i>
-              <h3 class="info">Đại Học Duy Tân</h3>
+              <h3 class="info" data-key="school">Đại Học Duy Tân</h3>
             </div>
             <div class="info-item">
               <i class="fas fa-envelope" style="color: #29a5f8"></i>
-              <h3 class="info">lecanhhung0410@gmail.com</h3>
+              <h3 class="info" data-key="email">lecanhhung0410@gmail.com</h3>
             </div>
             <div class="info-item">
               <i class="fas fa-phone" style="color: #29a5f8"></i>
-              <h3 class="info">0935718178</h3>
+              <h3 class="info" data-key="phone">0935718178</h3>
             </div>
             <div class="info-item">
               <i class="fas fa-map-marker-alt" style="color: #29a5f8"></i>
-              <h3 class="info">Đà Nẵng, Việt Nam</h3>
+              <h3 class="info" data-key="address">Đà Nẵng, Việt Nam</h3>
             </div>
           </div>
         </div>
 
         <div class="left-side-middle">
           <div class="left-side-middle-item">
-            <a href="#intro">Giới thiệu</a>
+            <a href="#intro" data-key="menu_intro">Giới thiệu</a>
           </div>
           <div class="left-side-middle-item">
-            <a href="#skills">Kỹ năng</a>
+            <a href="#skills" data-key="menu_skills">Kỹ năng</a>
           </div>
           <div class="left-side-middle-item">
-            <a href="#routes">Hướng đi</a>
+            <a href="#routes" data-key="menu_routes">Hướng đi</a>
           </div>
           <div class="left-side-middle-item">
-            <a href="#projects">Dự án cá nhân</a>
+            <a href="#projects" data-key="menu_projects">Dự án cá nhân</a>
           </div>
         </div>
 
@@ -76,30 +76,30 @@
       </div>
       <div class="right-side">
         <div id="intro" class="right-side-intro">
-          <h1>Giới thiệu</h1>
+          <h1 data-key="intro_title">Giới thiệu</h1>
           <div class="introduction">
-            <p>
+            <p data-key="intro_paragraph1">
               Xin chào! Mình là một sinh viên đam mê xây dựng các trải nghiệm
               web hiện đại và tối ưu cho người dùng. mình có kinh nghiệm phát
               triển các ứng dụng web sử dụng công nghệ mới như Next.js hay
               Nest.js, đồng thời luôn đặt hiệu suất và trải nghiệm người dùng
               lên hàng đầu.
             </p>
-            <p>
+            <p data-key="intro_paragraph2">
               Mình đặc biệt thành thạo trong việc khai thác sức mạnh của AI để
               hỗ trợ quá trình phát triển phần mềm - từ việc viết prompt hiệu
               quả, quản lý và điều chỉnh mã do AI tạo ra, cho đến việc tích hợp
               AI vào quy trình làm việc nhằm tăng tốc và tối ưu hóa hiệu suất dự
               án.
             </p>
-            <p>
+            <p data-key="intro_paragraph3">
               Mình có một số kinh nghiệm nhất định trong việc xây dựng và triển
               khai một vài dự án website thực tế với quy mô nhỏ, những dự án
               trên mang lại cho mình rất nhiêu kinh nghiệm và cũng như nhận ra
               bản thân còn rất nhiều thiếu sót. Hiện tại mình vẫn đang phát
               triển kỹ năng của mình để phù hợp hơn với ngành.
             </p>
-            <p>
+            <p data-key="intro_paragraph4">
               Ngoài ra, mình có khả năng tự học nhanh, thích nghi tốt với môi
               trường mới, cùng với kỹ năng giao tiếp hiệu quả. Mình có thể sử
               dụng tiếng Anh ở mức trung cấp để nghe hiểu và giao tiếp cơ bản
@@ -109,160 +109,170 @@
           </div>
         </div>
         <div id="skills" class="right-side-skills">
-          <h1>Kỹ năng</h1>
-          <div class="skills">
-            <div class="tabs">
-              <input type="radio" id="tab1" name="tabs" checked />
-              <label for="tab1" class="tab-label">Kỹ năng lập trình</label>
+          <h1 data-key="skills_title">Kỹ năng</h1>
+          <div class="tabs">
+            <input type="radio" id="tab1" name="tabs" checked />
+            <label for="tab1" class="tab-label" data-key="skills_tab1"
+              >Kỹ năng lập trình</label
+            >
 
-              <input type="radio" id="tab2" name="tabs" />
-              <label for="tab2" class="tab-label">Kỹ năng ngoại ngữ</label>
+            <input type="radio" id="tab2" name="tabs" />
+            <label for="tab2" class="tab-label" data-key="skills_tab2"
+              >Kỹ năng ngoại ngữ</label
+            >
 
-              <div id="content1" class="tab-content">
-                <!-- Ngôn ngữ lập trình từng sử dụng -->
-                <div class="skills-box">
-                  <h3>Ngôn ngữ lập trình</h3>
+            <!-- TAB 1: Kỹ năng lập trình -->
+            <div id="content1" class="tab-content">
+              <div class="skills-box">
+                <h3 data-key="skills_code_title">Ngôn ngữ lập trình</h3>
 
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>JavaScript&#47;TypeScript</h4>
-                      <p>Trung bình</p>
-                    </div>
-                    <p>
-                      Sử dụng TypeScript trong dự án Next.js, xử lý state và
-                      props, làm việc với API
-                    </p>
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4>JavaScript/TypeScript</h4>
+                    <p data-key="intermediate_level">Trung bình</p>
                   </div>
-
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>C&#43;&#43;</h4>
-                      <p>Trung bình</p>
-                    </div>
-                    <p>
-                      Từng sử dụng C&#43;&#43; để xử lý các thuật toán cơ bản
-                      trong lập trình
-                    </p>
-                  </div>
-
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>C&#35;</h4>
-                      <p>Trung bình</p>
-                    </div>
-                    <p>
-                      Có kinh nghiệm sử dụng C&#35; trong lập trình ứng dụng
-                      Windows Forms
-                    </p>
-                  </div>
-
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>Java (OOP)</h4>
-                      <p>Trung bình</p>
-                    </div>
-                    <p>
-                      Có kinh nghiệm sử dụng ngôn ngữ Java với cấu trúc OOP để
-                      phát triển một vài dự án cá nhân nhỏ.
-                    </p>
-                  </div>
+                  <p data-key="skills_js_desc">
+                    Sử dụng TypeScript trong dự án Next.js, xử lý state và
+                    props, làm việc với API
+                  </p>
                 </div>
 
-                <!-- Công nghệ web -->
-                <div class="skills-box">
-                  <h3>Công nghệ Web</h3>
-
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>Next&#46;js BE&#47;FE</h4>
-                      <p>Khá</p>
-                    </div>
-                    <p>
-                      Sử dụng TypeScript trong dự án Next.js, xử lý state và
-                      props, làm việc với API.
-                    </p>
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4>C++</h4>
+                    <p data-key="intermediate_level">Trung bình</p>
                   </div>
+                  <p data-key="skills_cpp_desc">
+                    Từng sử dụng C++ để xử lý các thuật toán cơ bản trong lập
+                    trình
+                  </p>
+                </div>
 
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>NestJS</h4>
-                      <p>Khá</p>
-                    </div>
-                    <p>
-                      Sử dụng NestJS để xây dựng ứng dụng cung cấp các dịch vụ
-                      API.
-                    </p>
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4>C#</h4>
+                    <p data-key="intermediate_level">Trung bình</p>
                   </div>
+                  <p data-key="skills_csharp_desc">
+                    Có kinh nghiệm sử dụng C# trong lập trình ứng dụng Windows
+                    Forms
+                  </p>
+                </div>
 
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>.NET Framework&#47;Core, Windows Forms</h4>
-                      <p>Trung bình</p>
-                    </div>
-                    <p>
-                      Từng xây dựng ứng dụng Windows Forms với trong quá trình
-                      học tập.
-                    </p>
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4>Java (OOP)</h4>
+                    <p data-key="intermediate_level">Trung bình</p>
                   </div>
-
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>Java Core&#47;Java Swing</h4>
-                      <p>Trung bình</p>
-                    </div>
-                    <p>
-                      Có kinh nghiệm sử dụng 2 công nghệ này để phát triển một
-                      vài dự án cá nhân nhỏ trong quá trình học tập.
-                    </p>
-                  </div>
+                  <p data-key="skills_java_desc">
+                    Có kinh nghiệm sử dụng ngôn ngữ Java với cấu trúc OOP để
+                    phát triển dự án cá nhân nhỏ.
+                  </p>
                 </div>
               </div>
 
-              <div id="content2" class="tab-content">
-                <div class="skills-box">
-                  <h3>Tiếng Anh</h3>
+              <div class="skills-box">
+                <h3 data-key="skills_web_title">Công nghệ Web</h3>
 
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>Nghe</h4>
-                      <p>Khá</p>
-                    </div>
-                    <p>Khả năng nghe tương đối ổn trong giao tiếp cơ bản.</p>
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4>Next.js BE/FE</h4>
+                    <p data-key="good_level">Khá</p>
                   </div>
+                  <p data-key="skills_next_desc">
+                    Sử dụng TypeScript trong dự án Next.js, xử lý state và
+                    props, làm việc với API.
+                  </p>
+                </div>
 
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>Nói</h4>
-                      <p>Khá</p>
-                    </div>
-                    <p>Khả năng nói và giao tiếp cơ bản tốt.</p>
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4>NestJS</h4>
+                    <p data-key="good_level">Khá</p>
                   </div>
+                  <p data-key="skills_nest_desc">
+                    Sử dụng NestJS để xây dựng ứng dụng cung cấp các dịch vụ
+                    API.
+                  </p>
+                </div>
 
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>Đọc</h4>
-                      <p>Khá</p>
-                    </div>
-                    <p>Có khả năng đọc hiểu tương đối.</p>
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4>.NET Framework/Core, Windows Forms</h4>
+                    <p data-key="intermediate_level">Trung bình</p>
                   </div>
+                  <p data-key="skills_dotnet_desc">
+                    Từng xây dựng ứng dụng Windows Forms trong quá trình học
+                    tập.
+                  </p>
+                </div>
 
-                  <div class="skill-row">
-                    <div class="skill-header">
-                      <h4>Viết</h4>
-                      <p>Trung bình</p>
-                    </div>
-                    <p>Khả năng viết tiếng Anh tương đối.</p>
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4>Java Core/Java Swing</h4>
+                    <p data-key="intermediate_level">Trung bình</p>
                   </div>
+                  <p data-key="skills_javaswing_desc">
+                    Có kinh nghiệm sử dụng 2 công nghệ này để phát triển dự án
+                    cá nhân nhỏ.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- TAB 2: Ngoại ngữ -->
+            <div id="content2" class="tab-content">
+              <div class="skills-box">
+                <h3 data-key="skills_english_title">Tiếng Anh</h3>
+
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4 data-key="skills_listen_title">Nghe</h4>
+                    <p data-key="good_level">Khá</p>
+                  </div>
+                  <p data-key="skills_listen_desc">
+                    Khả năng nghe tương đối ổn trong giao tiếp cơ bản.
+                  </p>
+                </div>
+
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4 data-key="skills_speak_title">Nói</h4>
+                    <p data-key="good_level">Khá</p>
+                  </div>
+                  <p data-key="skills_speak_desc">
+                    Khả năng nói và giao tiếp cơ bản tốt.
+                  </p>
+                </div>
+
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4 data-key="skills_read_title">Đọc</h4>
+                    <p data-key="good_level">Khá</p>
+                  </div>
+                  <p data-key="skills_read_desc">
+                    Có khả năng đọc hiểu tương đối.
+                  </p>
+                </div>
+
+                <div class="skill-row">
+                  <div class="skill-header">
+                    <h4 data-key="skills_write_title">Viết</h4>
+                    <p data-key="intermediate_level">Trung bình</p>
+                  </div>
+                  <p data-key="skills_write_desc">
+                    Khả năng viết tiếng Anh tương đối.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div id="routes" class="right-side-routes">
-          <h1>Hướng đi</h1>
+          <h1 data-key="routes_title">Hướng đi</h1>
           <div class="route-box">
-            <h3>Lập trình viên Web Fullstack</h3>
-            <p>
+            <h3 data-key="routes_goal">Lập trình viên Web Fullstack</h3>
+            <p data-key="routes_description">
               Hiện tại với những kiến thức và kinh nghiệm mình có thông qua học
               tập và làm việc, thì mình muốn trở thành một Lập trình viên Web
               Fullstack.
@@ -270,7 +280,7 @@
           </div>
         </div>
         <div id="projects" class="right-side-projects">
-          <h1>Dự án cá nhân</h1>
+          <h1 data-key="projects_title">Dự án cá nhân</h1>
 
           <a
             href="https://my-foods-review-website.vercel.app/"
@@ -279,9 +289,11 @@
           >
             <div class="project-box">
               <img src="public/foodpin.png" alt="FoodPin project image" />
-              <h3>Tên dự án: FoodPin <span class="arrow">&#8594;</span></h3>
-              <p style="color: black;">4&#47;2025</p>
-              <p>
+              <h3 data-key="project1_name">
+                Tên dự án: FoodPin <span class="arrow">&#8594;</span>
+              </h3>
+              <p style="color: black">4&#47;2025</p>
+              <p data-key="project1_desc">
                 Website FoodPin được xây dựng với ý tưởng là nơi để các doanh
                 nghiệp F&B quảng bá menu của họ, cũng như khách hàng có thể tìm
                 kiếm được món ăn yêu thích của mình. Được xây dựng bằng Next.js,
@@ -305,11 +317,21 @@
             class="project-link"
           >
             <div class="project-box">
-              <img src="public/languages-practice.png" alt="FoodPin project image" />
-              <h3>Tên dự án: Languages Translation Practice <span class="arrow">&#8594;</span></h3>
-              <p style="color: black;">5&#47;2025</p>
-              <p>
-                Webiste này mình xây dựng để sử dụng cho cá nhân mình và một số bạn bè, nền tảng này giúp mình luyện sử dụng ngữ pháp ngoại ngữ bằng cách dịch các câu từ tiếng Việt sang tiếng nước ngoài. Cốt lỗi của website này là mình tạo một prompt và gọi đến API của Gemini và nhận về kết quả, sau đó xử lý và đưa lên giao diện.
+              <img
+                src="public/languages-practice.png"
+                alt="FoodPin project image"
+              />
+              <h3 data-key="project2_name">
+                Tên dự án: Languages Translation Practice
+                <span class="arrow">&#8594;</span>
+              </h3>
+              <p style="color: black">5&#47;2025</p>
+              <p data-key="project2_desc">
+                Webiste này mình xây dựng để sử dụng cho cá nhân mình và một số
+                bạn bè, nền tảng này giúp mình luyện sử dụng ngữ pháp ngoại ngữ
+                bằng cách dịch các câu từ tiếng Việt sang tiếng nước ngoài. Cốt
+                lỗi của website này là mình tạo một prompt và gọi đến API của
+                Gemini và nhận về kết quả, sau đó xử lý và đưa lên giao diện.
               </p>
               <div class="techs">
                 <div>Next.js Fullstack</div>
@@ -326,10 +348,15 @@
           >
             <div class="project-box">
               <img src="public/spa-website.png" alt="FoodPin project image" />
-              <h3>Tên dự án: Moon Light Spa <span class="arrow">&#8594;</span></h3>
-              <p style="color: black;">10&#47;2025</p>
-              <p>
-                Đây là dự án thực tế đầu tiên mà mình được nhận, một dự án quy mô nhỏ cho một cửa tiệm Trị liệu. Tuy không phải một thành tựu quá lớn nhưng đó cũng là một động lực để mình có thể tiếp tục phát triển bản thân.
+              <h3 data-key="project3_name">
+                Tên dự án: Moon Light Spa <span class="arrow">&#8594;</span>
+              </h3>
+              <p style="color: black">10&#47;2025</p>
+              <p data-key="project3_desc">
+                Đây là dự án thực tế đầu tiên mà mình được nhận, một dự án quy
+                mô nhỏ cho một cửa tiệm Trị liệu. Tuy không phải một thành tựu
+                quá lớn nhưng đó cũng là một động lực để mình có thể tiếp tục
+                phát triển bản thân.
               </p>
               <div class="techs">
                 <div>Next.js Fullstack</div>
@@ -342,6 +369,12 @@
           </a>
         </div>
       </div>
+    </div>
+    <div class="lang-selector">
+      <select id="languageSelect">
+        <option value="vi">🇻i Tiếng Việt</option>
+        <option value="en">en English</option>
+      </select>
     </div>
   </body>
 </html>

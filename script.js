@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Tạo nút toggle menu
   const menuToggle = document.createElement("button");
   menuToggle.className = "menu-toggle";
-  menuToggle.innerHTML = "☰";
+  menuToggle.innerHTML = "&equiv;"; // hamburger buton
   menuToggle.setAttribute("aria-label", "Mở menu");
   document.body.appendChild(menuToggle);
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function openMenu() {
     leftSide.classList.add("active");
     overlay.classList.add("active");
-    menuToggle.innerHTML = "✕";
+    menuToggle.innerHTML = "&times;"; // dấu X
     menuToggle.setAttribute("aria-label", "Đóng menu");
     document.body.style.overflow = "hidden"; // Ngăn scroll khi menu mở
   }
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function closeMenu() {
     leftSide.classList.remove("active");
     overlay.classList.remove("active");
-    menuToggle.innerHTML = "☰";
+    menuToggle.innerHTML = "&equiv;"; // hamberger button
     menuToggle.setAttribute("aria-label", "Mở menu");
     document.body.style.overflow = ""; // Cho phép scroll lại
   }
@@ -140,4 +140,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Gọi lần đầu khi load trang
   highlightActiveSection();
+
+  // code thay đổi ngôn ngữ
+  async function loadLanguage(lang) {
+    const res = await fetch(`./lang/${lang}.json`);
+    const data = await res.json();
+    document.querySelectorAll("[data-key]").forEach((el) => {
+      const key = el.getAttribute("data-key");
+      el.textContent = data[key];
+    });
+    document.documentElement.lang = lang;
+    localStorage.setItem("lang", lang);
+  }
+
+  document.getElementById("languageSelect").addEventListener("change", (e) => {
+    const lang = e.target.value;
+    loadLanguage(lang);
+  });
+
+  // Khi load trang
+  const savedLang = localStorage.getItem("lang") || "vi";
+  document.getElementById("languageSelect").value = savedLang;
+  loadLanguage(savedLang);
 });
