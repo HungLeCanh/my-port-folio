@@ -12,7 +12,7 @@
   "menu_projects": "Dự án cá nhân",
 
   "intro_title": "Giới thiệu",
-  "intro_paragraph1": "Xin chào! Mình là một sinh viên đam mê xây dựng các trải nghiệm web hiện đại và tối ưu cho người dùng. Mình có kinh nghiệm phát triển các ứng dụng web sử dụng công nghệ mới như Next.js hay Nest.js, đồng thời luôn đặt hiệu suất và trải nghiệm người dùng lên hàng đầu.",
+  "intro_paragraph1": "Xin chào! Mình là một sinh viên đam mê xây dựng các trải nghiệm web hiện đại và tối ưu cho người dùng. Mình có kinh nghiệm phát triển các ứng dụng web sử dụng công nghệ mới như Next.js hay NestJS, đồng thời luôn đặt hiệu suất và trải nghiệm người dùng lên hàng đầu.",
   "intro_paragraph2": "Mình đặc biệt thành thạo trong việc khai thác sức mạnh của AI để hỗ trợ quá trình phát triển phần mềm - từ việc viết prompt hiệu quả, quản lý và điều chỉnh mã do AI tạo ra, cho đến việc tích hợp AI vào quy trình làm việc nhằm tăng tốc và tối ưu hóa hiệu suất dự án.",
   "intro_paragraph3": "Mình có một số kinh nghiệm nhất định trong việc xây dựng và triển khai một vài dự án website thực tế với quy mô nhỏ, những dự án trên mang lại cho mình rất nhiều kinh nghiệm và giúp mình nhận ra bản thân còn thiếu sót. Hiện tại mình vẫn đang phát triển kỹ năng của mình để phù hợp hơn với ngành.",
   "intro_paragraph4": "Ngoài ra, mình có khả năng tự học nhanh, thích nghi tốt với môi trường mới, cùng với kỹ năng giao tiếp hiệu quả. Mình có thể sử dụng tiếng Anh ở mức trung cấp để nghe hiểu và giao tiếp cơ bản hàng ngày, mình mong có thể được học hỏi thêm về việc sử dụng tiếng Anh trong công việc.",
@@ -52,8 +52,10 @@
   "projects_title": "Dự án cá nhân",
   "project1_name": "Tên dự án: FoodPin",
   "project1_desc": "Website FoodPin được xây dựng với ý tưởng là nơi để các doanh nghiệp F&B quảng bá menu của họ, cũng như khách hàng có thể tìm kiếm được món ăn yêu thích của mình. Được xây dựng bằng Next.js, đây cũng là lần đầu chính tay mình xây dựng một website với công nghệ này, tuy dự án này có nhiều thiếu sót nhưng cũng là động lực lớn giúp mình phát triển hơn.",
-  "project2_name": "Tên dự án: Languages Translation Practice",
+  "project2_name": "Tên dự án: Languages Translation Practice (Gemini API tạm thời hết hạn)",
   "project2_desc": "Website này mình xây dựng để giúp luyện ngữ pháp ngoại ngữ bằng cách dịch câu từ tiếng Việt sang ngôn ngữ khác. Cốt lõi website sử dụng API của Gemini để xử lý và trả kết quả dịch.",
   "project3_name": "Tên dự án: Moon Light Spa",
-  "project3_desc": "Đây là dự án thực tế đầu tiên mà mình được nhận, quy mô nhỏ cho một cửa tiệm Trị liệu. Tuy không quá lớn nhưng là một bước tiến quan trọng với mình."
+  "project3_desc": "Đây là dự án thực tế đầu tiên mà mình được nhận, quy mô nhỏ cho một cửa tiệm Trị liệu. Tuy không quá lớn nhưng là một bước tiến quan trọng với mình.",
+  "project4_name": "Tên dự án: Nhà sách Đức Mẹ",
+  "project4_desc": "Đây là dự án thực tế thứ 2 mà mình được nhận, quy mô vừa cho một nhà sách chuyên bán các mặt hàng công giáo, mình triển khai các dịch vụ như quản lý sản phẩm/đơn hàng và một số chức năng khác."
 }

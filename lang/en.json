@@ -12,7 +12,7 @@
   "menu_projects": "Personal Projects",
 
   "intro_title": "Introduction",
-  "intro_paragraph1": "Hello! I’m a student passionate about building modern and optimized web experiences. I have experience developing web applications using modern technologies such as Next.js and Nest.js, always focusing on performance and user experience.",
+  "intro_paragraph1": "Hello! I’m a student passionate about building modern and optimized web experiences. I have experience developing web applications using modern technologies such as Next.js and NestJS, always focusing on performance and user experience.",
   "intro_paragraph2": "I am particularly skilled at leveraging AI to support the software development process—from crafting effective prompts, managing and refining AI-generated code, to integrating AI into the workflow for better productivity and performance.",
   "intro_paragraph3": "I have some experience in building and deploying several small-scale real-world websites. These projects have given me valuable lessons and helped me recognize my shortcomings. I am continuously improving my skills to become more aligned with the industry.",
   "intro_paragraph4": "Additionally, I have a fast learning ability, good adaptability to new environments, and effective communication skills. I can use English at an intermediate level for basic listening and speaking, and I’m eager to further improve my English for professional use.",
@@ -52,8 +52,11 @@
   "projects_title": "Personal Projects",
   "project1_name": "Project: FoodPin",
   "project1_desc": "FoodPin is a website designed for F&B businesses to showcase their menus, and for customers to discover their favorite dishes. Built with Next.js, this was my first full Next.js project. Though imperfect, it was a great motivation to grow.",
-  "project2_name": "Project: Languages Translation Practice",
+  "project2_name": "Project: Languages Translation Practice (Gemini API temporarily expired)",
   "project2_desc": "This website was created for myself and some friends to practice grammar by translating sentences from Vietnamese into foreign languages. It uses Gemini API to handle translations and display results.",
   "project3_name": "Project: Moon Light Spa",
-  "project3_desc": "This was my first real-world project — a small-scale website for a spa. It may not be a big achievement, but it marked an important step in my personal development."
+  "project3_desc": "This was my first real-world project — a small-scale website for a spa. It may not be a big achievement, but it marked an important step in my personal development.",
+  "project4_name": "Project Name: Duc Me Store",
+
+  "project4_desc": "This is the second real-world project I've received, a medium-sized project for a bookstore specializing in Catholic products. I'm implementing services such as product/order management and some other functions."
 }
